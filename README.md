@@ -6,7 +6,9 @@ Pair2Rel: Relation Extraction Model
 
 Pair2Rel/
 ├── Benchmark datasets/ # Raw and preprocessed dataset files (ADE, SciERC, etc.)
+
 ├── Evaluation_pipeline/ # Jupyter notebooks for evaluating trained models
+
 ├── gpt_4o_mini_evaluation/ # GPT-4o/mini-based evaluation notebooks
 ├── configs/ # YAML config files for training 
 ├── CONLL04/, DEVREV/, data/ # Task-specific input or output formatting code
