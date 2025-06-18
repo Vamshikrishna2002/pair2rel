@@ -10,25 +10,45 @@ Pair2Rel/
 ├── Evaluation_pipeline/ # Jupyter notebooks for evaluating trained models
 
 ├── gpt_4o_mini_evaluation/ # GPT-4o/mini-based evaluation notebooks
+
 ├── configs/ # YAML config files for training 
+
 ├── CONLL04/, DEVREV/, data/ # Task-specific input or output formatting code
+
 ├── lib/ # (Optional) helper library code
+
 ├── logs/ # Saved logs from training/evaluation
+
 ├── pair2rel/ # Core model logic (model, modules, utils)
+
 │ ├── init.py
+
 │ ├── model.py
+
 │ └── modules/ # entity representation layers, relation representation layers etc.
+
 ├── pair2rel_weights/ # Pretrained model weights
+
 ├── chatgpt_4o_mini_extracted_named_entities.json # GPT-4o-mini entities output fro benchmark datasets
+
 ├── chatgpt_4o_mini_relation_extraction.json # GPT-4o-mini relations output for benchmark datasets
+
 ├── pipeline.py # Full pipeline code
+
 ├── train.py # Training script
+
 ├── run_evaluation.py
+
 ├── spacy_help_functions.py # Utilities for spaCy-based preprocessing
+
 ├── entities.json # Entity types with label indices
+
 ├── requirements.txt # Dependencies
+
 ├── requirements-dev.txt # Additional dev dependencies
+
 ├── temp.ipynb # Notebook for debugging/experiments
+
 ├── README.md # This file
 
 BenchMark Datasets:
